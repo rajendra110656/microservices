@@ -1,5 +1,6 @@
 # installs typescript and ts-node helps running javascript with single command
 npm install -g typescript ts-node
+
 # installs node package manager
 npm init -y
 npm install axios
