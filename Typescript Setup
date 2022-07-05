@@ -4,3 +4,17 @@ npm install -g typescript ts-node
 # installs node package manager
 npm init -y
 npm install axios
+
+# use following command to compile typescript and run node js
+ts-node index.ts
+
+# use following to create ts config file
+tsc --init
+
+# add following options to ts config file
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+	"lib": ["DOM"]
+  }
+}
